@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MunchApp Plus</title>
+
+    <link rel="stylesheet" href="assets/styles/designer.css">
+    <link rel="stylesheet" href="assets/styles/lib/tailwind.css">
+</head>
+<body>
+    <div class="h-screen">
+        <!-- Top Right Element -->
+        <button class="btn-0 fixed top-10 left-1 mt-4 ml-4">
+            <img class="h-5" src="assets/icons/back.svg" alt="Previous Action">
+        </button>
+
+        <!-- Top  Element -->
+        <div class="flex justify-center">
+            <div class="sticky pt-12">
+                <h2 class="_font text-center text-3xl">Reset Pin</h2>
+                <p class="_font text-center text-lg pt-1.5">Enter your old and new pins to reset.</p>
+            </div>
+        </div>
+
+        <!-- Center Element -->
+        <div class="flex flex-col pt-5">
+            <div class="pl-7 pr-7 pt-4">
+                <div class="relative">
+                    <input id="usr_firstname" class="_font std-input text-lg rounded-full h-14 w-full pl-6 pt-4" type="text" placeholder="" required>
+                    <label for="usr_firstname" class="absolute _font text-xl text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-5 z-10 origin-[0] left-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Current Pin</label>
+                </div>
+            </div>
+
+            <div class="pl-7 pr-7 pt-6">
+                <div class="relative">
+                    <input id="usr_firstname" class="_font std-input text-lg rounded-full h-14 w-full pl-6 pt-4" type="text" placeholder="" required>
+                    <label for="usr_firstname" class="absolute _font text-xl text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-5 z-10 origin-[0] left-2.5 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">New Pin</label>
+                </div>
+            </div>
+
+            <div class="pl-7 pr-7 pt-6">
+                <div class="relative">
+                    <input id="usr_firstname" class="_font std-input text-lg rounded-full h-14 w-full pl-6 pt-4" type="text" placeholder="" required>
+                    <label for="usr_firstname" class="absolute _font text-xl text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-5 z-10 origin-[0] left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Confirm New Pin</label>
+                </div>
+            </div>
+
+            <div class="pt-6">
+                <div class="pl-7 pr-7 pt-0.5">
+                    <button class="_font btn-0 main-btn rounded-full h-14 w-full">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
